@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+/* стилі головної секції */
+.main-page {
+  background: linear-gradient(90deg, #FCFEFE 0%, #A5DEFF 100%);
+}
+
+.main-page__logo {
+  margin-left: 95px;
+  margin-top: 32px;
+}
+
+.main-page__container {
+  border-radius: 40px;
+  background: #FFF;
+  padding: 60px;
+}
+
+.main-page__btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  background: #FF6B0A;
+  color: #FFF;
+}
+
+.main-page__img {}
+
+/* стилі секції фактів */
+
+/* стилі секції з формою */
