@@ -5,20 +5,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Banderogus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
   <section class="main-page">
-    <img src="./images/logo black.svg" alt="Тризуб" class="main-page__logo">
-    <div class="main-page__container">
-      <p>Доброго вечора, ми з України</p>
-      <h1>Бандерогусь</h1>
-      <p>Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами, бороню Батьківщину та підтримую
-        позитивний дух народу. Слава Україні!</p>
-      <button class="main-page__btn">Запустити гуся</button>
+    <div class="main--wrap">
+      <div class="main-page--left-side">
+        <img src="./images/logo black.svg" alt="Лого" class="main-page__logo">
+        <div class="main-page__container">
+          <p class="main-page__subtitle">Доброго вечора, ми з України</p>
+          <h1 class="main-page__title">Бандерогусь</h1>
+          <p class="main-page__text">Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами,
+            бороню Батьківщину та
+            підтримую
+            позитивний дух народу. Слава Україні!</p>
+          <button class="main-page__btn">Запустити гуся</button>
+        </div>
+      </div>
+      <img src="./images/gus.svg" alt="Бандерогусь" class="main-page__img">
     </div>
-    <img src="./images/gus.svg" alt="Бандерогусь" class="main-page__img">
+  </section>
+
+  <section class="facts-page">
+    <div class="facts--wrap">
+      <img src="./images/tryzub.svg" alt="Тризуб" class="facts-page__tryzub">
+      <h2 class="facts-page__title">Цікаві факти про бандерогусей</h2>
+      <p class="facts-page__text">Зазвичай бандерогуси &ndash; виключно мирні птахи. Але у разі небезпеки можуть
+        атакувати
+        ворога системою надпотужного
+        озброєння. Також нищать психологічно, активуючи високочастотне шипіння та розмахування крилами</p>
+      <ul class="facts-page__list">
+        <li class="facts-page__item">
+          <img src="./images/gus1.svg" alt="Система навігації" class="facts-page__img">
+          <h3 class="facts-page__subtitle">Система навігації</h3>
+          <p class="facts-page__descr">Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть на етапі збірки
+          </p>
+        </li>
+        <li class="facts-page__item">
+          <img src="./images/gus2.svg" alt="Очі-тепловізори" class="facts-page__img">
+          <h3 class="facts-page__subtitle">Очі-тепловізори</h3>
+          <p class="facts-page__descr">Допомагають виявити характер сигнатури об’єктів та значно підвищують точність
+            удару</p>
+        </li>
+        <li class="facts-page__item">
+          <img src="./images/gus3.svg" alt="Байракрила" class="facts-page__img">
+          <h3 class="facts-page__subtitle">Байракрила</h3>
+          <p class="facts-page__descr">Можуть нести 2-4 керовані ракети, що вражають ціль на відстані &laquo;ніхріна
+            собі&raquo; кілометрів</p>
+        </li>
+      </ul>
+    </div>
   </section>
 </body>
 
