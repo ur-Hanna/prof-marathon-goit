@@ -160,3 +160,94 @@ p {
 }
 
 /* стилі секції з формою */
+.form-page {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: linear-gradient(90deg, #FCFEFE 0%, #A5DEFF 100%);
+}
+
+.form-page__form {
+  width: 573px;
+  margin: 0 auto;
+  padding: 32px 60px 60px 60px;
+  text-align: center;
+  border-radius: 40px;
+  background: #FFF;
+}
+
+.form-page__tryzub {
+  margin-bottom: 32px;
+}
+
+.form-page__title {
+  margin-bottom: 12px;
+  color: #0A0A0A;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.form-page__subtitle {
+  color: #0A0A0A;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+/* стилі форми */
+.input--wrap {
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.form-page__label {
+  color: #0A0A0A;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.form-page__input {
+  width: 453px;
+  height: 60px;
+  padding: 0 12px;
+  margin-top: 8px;
+
+  font-family: inherit;
+  color: #0A0A0A;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+  border-radius: 8px;
+  border: 1px solid #005BBB;
+  background-color: #FFF;
+}
+
+.form-page__btn {
+  margin-top: 24px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #FF6B0A;
+  font-family: inherit;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* стилі гуся */
+.gus-anim {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
