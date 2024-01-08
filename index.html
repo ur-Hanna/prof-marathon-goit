@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="./img/gus-anim.gif" as="image">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 
@@ -23,7 +24,7 @@
             бороню Батьківщину та
             підтримую
             позитивний дух народу. Слава Україні!</p>
-          <button class="main-page__btn">Запустити гуся</button>
+          <button class="main-page__btn" id="go-to-form-btn">Запустити гуся</button>
         </div>
       </div>
       <img src="./images/gus.svg" alt="Бандерогусь" class="main-page__img">
@@ -32,7 +33,7 @@
 
   <section class="facts-page">
     <div class="facts--wrap">
-      <img src="./images/tryzub.svg" alt="Тризуб" class="facts-page__tryzub">
+      <img src="./images/tryzub.svg" alt="Тризуб" class="facts-page__tryzub" />
       <h2 class="facts-page__title">Цікаві факти про бандерогусей</h2>
       <p class="facts-page__text">Зазвичай бандерогуси &ndash; виключно мирні птахи. Але у разі небезпеки можуть
         атакувати
@@ -60,6 +61,25 @@
       </ul>
     </div>
   </section>
+
+  <section class="form-page">
+    <form action="#" class="form-page__form" netlify id="form">
+      <img src="./images/tryzub.svg" alt="Тризуб" class="form-page__tryzub" />
+      <h4 class="form-page__title">Поділися, будь ласка, поштою</h4>
+      <p class="form-page__subtitle">та запиши гуся до бандерозагону</p>
+      <div class="input--wrap">
+        <label for="userName" class="form-page__label" id="user-name">Ім&rsquo;я</label>
+        <input type="text" class="form-page__input" id="user-name" name="Ім'я користувача" placeholder="Степан Пантера">
+      </div>
+      <div class="input--wrap">
+        <label for="userEmail" class="form-page__label" id="user-email">Email</label>
+        <input type="email" class="form-page__input" id="user-email" name="Ел. пошта користувача"
+          placeholder="example@mail.com">
+      </div>
+      <button class="form-page__btn" id="launch-btn">Запустити гуся</button>
+    </form>
+  </section>
+  <script src="./js/form.js"></script>
 </body>
 
 </html>
