@@ -20,6 +20,17 @@ p {
   padding: 0;
 }
 
+/* стилі наведених кнопок */
+button {
+  cursor: pointer;
+  transition: box-shadow 200ms linear;
+}
+
+button:hover,
+button:focus {
+  box-shadow: 0px 10px 10px -6px rgba(107, 30, 0, 0.3);
+}
+
 /* стилі головної секції */
 .main-page {
   background: linear-gradient(90deg, #FCFEFE 0%, #A5DEFF 100%);
@@ -84,7 +95,6 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  cursor: pointer;
 }
 
 .main-page__img {
@@ -134,6 +144,11 @@ p {
 .facts-page__item {
   width: 374px;
   list-style-type: none;
+  transition: box-shadow 200ms linear;
+}
+
+.facts-page__item:hover {
+  box-shadow: 0px 0px 10px 3px #A5DEFF;
 }
 
 .facts-page__img {
@@ -228,7 +243,6 @@ p {
 .form-page__btn {
   margin-top: 24px;
   padding: 12px 24px;
-  cursor: pointer;
   border: none;
   border-radius: 8px;
   background: #FF6B0A;
@@ -250,4 +264,75 @@ p {
   width: 100%;
   z-index: 2;
   pointer-events: none;
+}
+
+/* стилі футера */
+.footer {
+  text-align: center;
+  padding: 32px;
+}
+
+.footer__container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.address {
+  margin: 32px auto 0;
+  max-width: 772px;
+  color: #0A0A0A;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.address__text {}
+
+.address__link {
+  color: #0A0A0A;
+  text-decoration: none;
+  transition: color 200ms linear;
+}
+
+.address__link--wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list--wrap {
+  text-align: center;
+}
+
+.footer__list--title {
+  margin-bottom: 12px;
+  color: #0A0A0A;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer__item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer__link {
+  color: #0A0A0A;
+  text-decoration: none;
+  transition: color 200ms linear;
+}
+
+.footer__link:hover,
+.footer__link:focus,
+.address__link:hover,
+.address__link:focus {
+  color: #FF6B0A;
 }
